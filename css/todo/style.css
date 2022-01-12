@@ -1,0 +1,68 @@
+.note {
+    padding:1em;
+    border-radius: 10px;
+    
+    background: #273c75;
+    margin:1em 0px ;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 1em 0px;
+    grid-gap:1em;
+}
+
+.row form {
+    background: #273c75;
+    padding:1em;
+    border-radius: 10px;
+}
+
+.row input[type=text]{
+    border:none;
+    font-size: large;
+    
+    
+    color: grey;
+    padding:20px;
+    border-radius: 5px;
+    width: 100%;
+    
+    margin-top: 5px;
+    height: 25px;
+}
+
+#submitTodo button {
+    padding:10px;
+    border:none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+input {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.todo  {
+    background-color:#273c75;
+    padding:1em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    
+}
+
+.todo button {
+    color: #f2f2f2;
+    border: none;
+    padding:10px;
+    font-size: 10px;
+    background-color: rgb(141, 11, 11);
+    cursor: pointer;
+}

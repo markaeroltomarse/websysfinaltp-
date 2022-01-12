@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/main.css"> -->
+    <title>Task Performance</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&display=swap');
+
+        body {
+            margin: 0px; 
+            padding: 0px;
+            background-color: #192a56;
+            color:#f2f2f2;
+            box-sizing: border-box;
+            
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .border {
+            border-top:5px solid rgb(167, 167, 0);
+        }
+
+        .title-font {
+            font-family: 'Anton', sans-serif;
+        }
+        .content {
+            padding: 1em 20%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .content {
+                padding: 1em ;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 class="title-font">TASK PERFORMANCE</h1>
+        
+        <div class="border"></div>
+
+        <br>
+
+        <small>
+            1. Write an HTML code for a table tag that contains two (2) rows: 1) The first row has a column span of 2. The header of the first column is titled Name (Last name, First name) while the header of the second column is titled Section. 2) For the second row, add three (3) data: Baustista, Christine, and BSCS601. (10 points)
+        </small>
+
+        <br>
+
+        <br>
+
+        <small style="color:grey;">Output: </small>
+        <table width="100%" style="margin:1em 0px;" border="1">
+            <tr>
+                <td colspan="2">
+                    Name
+                </td>
+
+                <td colspan="1">
+                    Section
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2">
+                    Bautista, Christine
+                </td>
+
+                <td colspan="1">
+                    BSCS601
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+        <small>
+            2. Using CSS, set the width of the borders of a < p > element based on the following values: Top - 2px, Bottom - 4px, Left - 20px, Right - 10px. (5 points)
+        </small>
+
+        <br>
+
+        <br>
+
+        <small style="color:grey;">Output: </small>
+
+        <p style="border: solid rgb(116, 116, 12); border-width: 2px 10px 4px 20px;">
+            OUTPUT NUMBER 2
+        </p>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+        <small>
+            3. Set Georgia as the font family and italic as the font style of a < p > element. (5 points)
+        </small>
+
+        <br>
+
+        <br>
+
+        <small style="color:grey;">Output: </small>
+
+        <p style="border: solid rgb(116, 116, 12); border-width: 2px 10px 4px 20px; font-family: 'Georgia'; font-style: italic;">
+            OUTPUT NUMBER 2
+        </p>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+
+        <small>
+            4. Declare a variable named num with an initial value of 0. Create a for loop that will print "Keep going" as long as the value of num is less than 5. Use window.alert() for displaying the output. (5 points)
+        </small>
+
+        <br>
+
+        <br>
+
+        <small style="color:grey;">Output: </small>
+
+        <pre style="border:1px solid grey;">
+            <code >
+                let num = 0
+                <br>
+                while(num < 5) {
+                    alert("Keep Going: " + num)
+    
+                    num++
+                }
+            </code>
+            <button id="btnrun">RUN</button>
+        </pre>
+
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+
+        <small>
+            5. Using the square bracket notation, create an array named info with three (3) values: your first name, your nickname, and your last name. (5 points)
+        </small>
+
+        <br>
+
+        <br>
+
+        <small style="color:grey;">Output: </small>
+
+        <pre style="border:1px solid grey;">
+            <code >
+                let info = ['Mark Aerol', 'Erol', 'Tomarse']
+            </code>
+        </pre>
+
+
+        
+    </div>
+</body>
+
+<script>
+
+let btnrun = document.getElementById('btnrun')
+
+btnrun.addEventListener('click', e => {
+    let num = 0
+
+    while(num < 5) {
+        alert("Keep Going: " + num)
+        num++
+    }
+})
+
+</script>
+</html>
